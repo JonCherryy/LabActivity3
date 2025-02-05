@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
             val name = findViewById<EditText>(R.id.nameEditText).text.toString()
             if(name.isEmpty()){
-                displayTextView.text = "Hello, World!"
+                displayTextView.text = "Dont Work!"
             }else{
                 displayTextView.text = "Hello, $name!"
             }
